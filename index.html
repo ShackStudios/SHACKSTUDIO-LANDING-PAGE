@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Brand: Shack Studios — Revenue Systems Partner -->
+<title>Shack Studios | Revenue Systems Partner</title>
+<meta name="description" content="Shack Studios is an AI-powered growth agency that builds revenue systems for consumer brands. We integrate content, paid media, and data to scale sales across Amazon, Meta, and Google.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Shack Studios | Revenue Systems Partner">
+<meta property="og:description" content="AI-powered revenue systems for consumer brands. Content into rankings. Rankings into revenue.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shackstudios.com">
+<!-- TODO: Replace with real OG image (1200×630px) -->
+<meta property="og:image" content="https://shackstudios.com/assets/img/og-image.png">
+
+<!-- Favicon -->
+<!-- TODO: Generate proper .ico, apple-touch-icon, and .svg favicon -->
+<link rel="icon" type="image/png" href="assets/img/SHACKSTUDIOS-LOGO-FIRVERCON-2025.png">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;family=Public+Sans:wght@300;400;700;900&amp;display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+
+<!-- Tailwind CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="assets/js/tailwind-config.js"></script>
+
+<!-- Styles -->
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="font-body antialiased bg-surface text-primary">
+
+<!-- ============================================================
+     HEADER / NAVIGATION
+     ============================================================ -->
+<nav class="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-black" role="navigation" aria-label="Main navigation">
+  <div class="flex justify-between items-center w-full px-6 lg:px-10 py-4">
+
+    <!-- Logo -->
+    <a href="/" class="flex items-center no-underline shrink-0" aria-label="Shack Studios — Home">
+      <img alt="Shack Studios" class="h-7 md:h-8 w-auto" src="assets/img/SHACKSTUDIOS-LOGO-2025.png">
+    </a>
+
+    <!-- Nav links (desktop) -->
+    <div class="hidden md:flex gap-6 lg:gap-8 items-center">
+      <a class="text-zinc-500 font-mono text-xs uppercase tracking-wide hover:text-black transition-colors py-2" href="#services">Services</a>
+      <a class="text-zinc-500 font-mono text-xs uppercase tracking-wide hover:text-black transition-colors py-2" href="#results">Results</a>
+      <a class="text-zinc-500 font-mono text-xs uppercase tracking-wide hover:text-black transition-colors py-2" href="#process">Process</a>
+      <a class="text-zinc-500 font-mono text-xs uppercase tracking-wide hover:text-black transition-colors py-2" href="#contact">Contact</a>
+    </div>
+
+    <!-- Right group: CTA + Hamburger -->
+    <div class="flex items-center gap-4">
+      <!-- CTA -->
+      <a href="#contact" class="hidden sm:inline-block bg-black text-white px-5 py-2.5 font-mono uppercase tracking-wide text-xs hover:opacity-80 transition-opacity no-underline shrink-0">
+        Book a Call
+      </a>
+
+      <!-- Hamburger (mobile only) -->
+      <button id="mobile-menu-toggle" class="md:hidden flex flex-col justify-center items-center w-10 h-10 gap-[5px] focus:outline-none" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="hamburger-line block w-6 h-[2px] bg-black transition-all duration-300"></span>
+        <span class="hamburger-line block w-6 h-[2px] bg-black transition-all duration-300"></span>
+        <span class="hamburger-line block w-6 h-[2px] bg-black transition-all duration-300"></span>
+      </button>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile menu overlay -->
+<div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+  <div class="mobile-menu-inner">
+    <a class="mobile-menu-link" href="#services">Services</a>
+    <a class="mobile-menu-link" href="#results">Results</a>
+    <a class="mobile-menu-link" href="#process">Process</a>
+    <a class="mobile-menu-link" href="#contact">Contact</a>
+    <a href="#contact" class="mobile-menu-cta">Book a Strategy Call</a>
+  </div>
+</div>
+
+<main class="pt-[72px]">
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="px-6 lg:px-10 py-24 md:py-36 border-b border-black">
+  <div class="max-w-6xl mx-auto">
+
+    <div class="inline-block border border-black px-3 py-1 mb-10 font-mono text-[11px] uppercase tracking-widest">
+      Revenue Systems Partner
+    </div>
+
+    <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-[0.9] mb-8">
+      Content into rankings.<br>Rankings into revenue.
+    </h1>
+
+    <p class="text-lg md:text-xl max-w-xl mb-14 text-zinc-500 font-light leading-relaxed">
+      Shack Studios builds AI-powered growth systems that scale your brand across Amazon, Meta, and Google. We don't run campaigns — we build the infrastructure that drives revenue.
+    </p>
+
+    <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+      <a href="#contact" class="bg-black text-white px-8 py-4 font-mono font-bold text-sm uppercase tracking-widest flex items-center gap-3 hover:bg-zinc-800 transition-all no-underline">
+        Book a Strategy Call
+        <span class="material-symbols-outlined text-xl">arrow_forward</span>
+      </a>
+      <span class="font-mono text-xs uppercase text-zinc-400 tracking-wide">
+        Now accepting new partners
+      </span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     TRUST BAR
+     ============================================================ -->
+<section class="border-b border-black py-6 px-6 lg:px-10">
+  <div class="max-w-6xl mx-auto flex flex-wrap justify-center md:justify-between items-center gap-6 md:gap-8 font-mono text-xs uppercase tracking-widest text-zinc-400">
+    <span>Amazon</span>
+    <span class="hidden md:inline text-zinc-200" aria-hidden="true">·</span>
+    <span>Meta</span>
+    <span class="hidden md:inline text-zinc-200" aria-hidden="true">·</span>
+    <span>Google</span>
+    <span class="hidden md:inline text-zinc-200" aria-hidden="true">·</span>
+    <span>Content Systems</span>
+    <span class="hidden md:inline text-zinc-200" aria-hidden="true">·</span>
+    <span>AI-Powered Optimisation</span>
+  </div>
+</section>
+
+<!-- ============================================================
+     THE SHACK GROWTH ENGINE (Methodology)
+     ============================================================ -->
+<section class="py-24 md:py-28 bg-white" id="process">
+  <div class="px-6 lg:px-10 max-w-6xl mx-auto mb-14">
+    <p class="font-mono text-[11px] uppercase tracking-[0.3em] text-zinc-400 mb-3">How We Scale Brands</p>
+    <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tight">The Shack Growth Engine</h2>
+  </div>
+  <div class="px-6 lg:px-10 max-w-6xl mx-auto">
+    <div class="bento-grid">
+
+      <!-- Hero card -->
+      <div class="bento-item col-span-12 md:col-span-8 flex flex-col justify-between min-h-[280px] md:min-h-[320px]">
+        <div>
+          <span class="material-symbols-outlined text-3xl mb-5">psychology</span>
+          <h3 class="text-xl md:text-2xl font-bold uppercase mb-3">AI-Powered Execution</h3>
+          <p class="text-zinc-500 max-w-md text-sm leading-relaxed">Integrated marketing systems that process real-time performance data and optimise campaigns across Amazon, Meta, and Google — continuously and automatically.</p>
+        </div>
+        <div class="mt-8 border-t border-zinc-200 pt-5">
+          <img class="w-full h-40 md:h-48 object-cover grayscale" alt="Abstract data flow visualisation" src="assets/img/bento-abstract.jpg">
+        </div>
+      </div>
+
+      <!-- Stat card -->
+      <div class="bento-item col-span-12 md:col-span-4 flex flex-col justify-center text-center border-l-0 md:border-l border-black py-12 md:py-0">
+        <div class="text-4xl md:text-5xl font-black mb-2">4-Step</div>
+        <div class="font-mono text-xs uppercase tracking-widest text-zinc-400">Revenue Engine</div>
+      </div>
+
+      <!-- Step 1 -->
+      <div class="bento-item col-span-12 md:col-span-4 border-t border-black">
+        <span class="material-symbols-outlined text-2xl mb-3">campaign</span>
+        <h3 class="text-base font-bold uppercase mb-2">Demand Creation</h3>
+        <p class="text-sm text-zinc-500 leading-relaxed">UGC and influencer content that generates demand before a single ad dollar is spent.</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="bento-item col-span-12 md:col-span-4 border-t border-l-0 md:border-l border-black">
+        <span class="material-symbols-outlined text-2xl mb-3">ads_click</span>
+        <h3 class="text-base font-bold uppercase mb-2">Traffic Capture</h3>
+        <p class="text-sm text-zinc-500 leading-relaxed">Amazon, Meta, and Google campaigns that capture high-intent buyers at every funnel stage.</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="bento-item col-span-12 md:col-span-4 border-t border-l-0 md:border-l border-black">
+        <span class="material-symbols-outlined text-2xl mb-3">conversion_path</span>
+        <h3 class="text-base font-bold uppercase mb-2">Conversion Optimisation</h3>
+        <p class="text-sm text-zinc-500 leading-relaxed">Listings, funnels, and creative systematically tested to maximise revenue per visitor.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SERVICES
+     ============================================================ -->
+<section class="py-24 md:py-28 border-y border-black" id="services">
+  <div class="px-6 lg:px-10 max-w-6xl mx-auto mb-14">
+    <p class="font-mono text-[11px] uppercase tracking-[0.3em] text-zinc-400 mb-3">What We Do</p>
+    <h2 class="text-3xl md:text-4xl font-black uppercase tracking-tight">Revenue Systems, Not Campaigns</h2>
+  </div>
+  <div class="px-6 lg:px-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-black">
+
+    <div class="bg-[#F5F5F5] p-8 md:p-10 hover:bg-black hover:text-white transition-all duration-300 group">
+      <div class="font-mono text-xs mb-8 opacity-40">01</div>
+      <h3 class="text-xl md:text-2xl font-black mb-3">Amazon Ads</h3>
+      <p class="text-sm leading-relaxed mb-8 opacity-70 group-hover:opacity-90">Full-stack Amazon growth — Sponsored Products, Brands, Display, DSP, listing optimisation, and storefront design.</p>
+      <span class="material-symbols-outlined text-xl group-hover:translate-x-2 transition-transform">arrow_forward</span>
+    </div>
+
+    <div class="bg-[#F5F5F5] p-8 md:p-10 hover:bg-black hover:text-white transition-all duration-300 group">
+      <div class="font-mono text-xs mb-8 opacity-40">02</div>
+      <h3 class="text-xl md:text-2xl font-black mb-3">Meta Ads</h3>
+      <p class="text-sm leading-relaxed mb-8 opacity-70 group-hover:opacity-90">UGC-driven ad systems, rapid creative testing, and retargeting funnels that scale spend without killing ROAS.</p>
+      <span class="material-symbols-outlined text-xl group-hover:translate-x-2 transition-transform">arrow_forward</span>
+    </div>
+
+    <div class="bg-[#F5F5F5] p-8 md:p-10 hover:bg-black hover:text-white transition-all duration-300 group">
+      <div class="font-mono text-xs mb-8 opacity-40">03</div>
+      <h3 class="text-xl md:text-2xl font-black mb-3">Google Ads</h3>
+      <p class="text-sm leading-relaxed mb-8 opacity-70 group-hover:opacity-90">Search, Shopping, YouTube, and Performance Max — capturing demand at every stage of the buying journey.</p>
+      <span class="material-symbols-outlined text-xl group-hover:translate-x-2 transition-transform">arrow_forward</span>
+    </div>
+
+    <div class="bg-[#F5F5F5] p-8 md:p-10 hover:bg-black hover:text-white transition-all duration-300 group">
+      <div class="font-mono text-xs mb-8 opacity-40">04</div>
+      <h3 class="text-xl md:text-2xl font-black mb-3">Content &amp; UGC</h3>
+      <p class="text-sm leading-relaxed mb-8 opacity-70 group-hover:opacity-90">Product demos, testimonials, before/after ads, and AI-generated creative — the engine that fuels every channel.</p>
+      <span class="material-symbols-outlined text-xl group-hover:translate-x-2 transition-transform">arrow_forward</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     PROOF / RESULTS
+     NOTE: Placeholder data — replace with real client results before launch
+     ============================================================ -->
+<section class="py-24 md:py-32 px-6 lg:px-10" id="results">
+  <div class="max-w-6xl mx-auto">
+
+    <div class="mb-14">
+      <p class="font-mono text-[11px] uppercase tracking-[0.3em] text-zinc-400 mb-3">Proof</p>
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-black uppercase tracking-tight">What the system delivered</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+
+      <!-- PLACEHOLDER: Must be replaced with real client data before launch -->
+      <div class="border border-black p-8 md:p-10 bg-white relative">
+        <div class="absolute top-0 right-0 bg-black text-white px-3 py-1.5 text-xs font-mono tracking-wide">[ PARTNER TYPE ]</div>
+        <div class="flex items-center gap-4 mb-6 mt-4">
+          <div class="w-10 h-10 bg-zinc-100 flex items-center justify-center">
+            <span class="material-symbols-outlined text-xl">trending_up</span>
+          </div>
+          <div class="font-mono text-xs font-bold uppercase tracking-wide">[ Client Sector ]</div>
+        </div>
+        <div class="text-6xl md:text-7xl font-black tracking-tighter mb-3">[ +XX% ]</div>
+        <div class="font-mono text-xs uppercase text-zinc-400 tracking-wide border-b border-zinc-100 pb-4 mb-4">[ Key Metric Achieved ]</div>
+        <p class="text-sm text-zinc-500 leading-relaxed">[ Summary of how Shack Studios scaled ad spend, improved ROAS, or integrated creative to drive growth for this specific partner. ]</p>
+      </div>
+
+      <!-- PLACEHOLDER: Must be replaced with real client data before launch -->
+      <div class="border border-black p-8 md:p-10 bg-white relative">
+        <div class="absolute top-0 right-0 bg-black text-white px-3 py-1.5 text-xs font-mono tracking-wide">[ PARTNER TYPE ]</div>
+        <div class="flex items-center gap-4 mb-6 mt-4">
+          <div class="w-10 h-10 bg-zinc-100 flex items-center justify-center">
+            <span class="material-symbols-outlined text-xl">payments</span>
+          </div>
+          <div class="font-mono text-xs font-bold uppercase tracking-wide">[ Client Sector ]</div>
+        </div>
+        <div class="text-6xl md:text-7xl font-black tracking-tighter mb-3">[ +$XXk ]</div>
+        <div class="font-mono text-xs uppercase text-zinc-400 tracking-wide border-b border-zinc-100 pb-4 mb-4">[ Key Metric Achieved ]</div>
+        <p class="text-sm text-zinc-500 leading-relaxed">[ Summary of the revenue impact, detailing the targeted integration of UGC and ad systems to systematically increase conversion rates. ]</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     DIFFERENTIATOR / MANIFESTO
+     ============================================================ -->
+<section class="bg-black text-white py-24 md:py-32 px-6 lg:px-10">
+  <div class="max-w-3xl mx-auto">
+
+    <h2 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter leading-[0.95] mb-16 text-center">
+      We don't run ads.<br>We build revenue systems.
+    </h2>
+
+    <div class="space-y-6 font-mono text-base md:text-lg text-zinc-400 leading-relaxed">
+      <p><span class="text-white font-bold">[01]</span> Performance over vanity. Every dollar is accountable.</p>
+      <p><span class="text-white font-bold">[02]</span> Systems over tactics. Infrastructure compounds. Campaigns don't.</p>
+      <p><span class="text-white font-bold">[03]</span> Speed over perfection. Launch, measure, iterate, scale.</p>
+      <p><span class="text-white font-bold">[04]</span> Creative-led growth. Data tells us what to build. Content makes it sell.</p>
+    </div>
+
+    <div class="mt-14 text-center">
+      <a href="#contact" class="inline-block border border-white text-white px-8 py-4 font-mono font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-all duration-300 no-underline">
+        Book a Strategy Call
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT / LEAD CAPTURE
+     ============================================================ -->
+<section class="py-24 md:py-32 px-6 lg:px-10 bg-zinc-100" id="contact">
+  <div class="max-w-2xl mx-auto border border-black bg-white overflow-hidden">
+
+    <!-- Terminal-style header -->
+    <div class="bg-black text-white px-6 py-3 font-mono text-xs flex justify-between items-center tracking-wide">
+      <span>SHACK STUDIOS</span>
+      <div class="flex gap-1.5">
+        <div class="w-2 h-2 rounded-full bg-zinc-700"></div>
+        <div class="w-2 h-2 rounded-full bg-zinc-700"></div>
+        <div class="w-2 h-2 rounded-full bg-white"></div>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div class="p-8 md:p-10 lg:p-12">
+      <h2 class="text-2xl md:text-3xl font-black uppercase mb-3 tracking-tight">Book a Strategy Call</h2>
+      <p class="text-zinc-500 mb-8 text-sm leading-relaxed">Tell us about your brand. We'll show you how Shack Studios can scale your revenue.</p>
+
+      <form class="space-y-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div class="space-y-1.5">
+            <label class="font-mono text-xs uppercase tracking-widest text-zinc-400 block">Name</label>
+            <input class="w-full border border-zinc-200 focus:border-black focus:ring-0 font-mono text-sm p-3" placeholder="Full name" type="text" required>
+          </div>
+          <div class="space-y-1.5">
+            <label class="font-mono text-xs uppercase tracking-widest text-zinc-400 block">Email</label>
+            <input class="w-full border border-zinc-200 focus:border-black focus:ring-0 font-mono text-sm p-3" placeholder="you@company.com" type="email" required>
+          </div>
+        </div>
+        <div class="space-y-1.5">
+          <label class="font-mono text-xs uppercase tracking-widest text-zinc-400 block">Monthly Revenue</label>
+          <select class="w-full border border-zinc-200 focus:border-black focus:ring-0 font-mono text-sm p-3">
+            <option>$50k – $100k / month</option>
+            <option>$100k – $500k / month</option>
+            <option>$500k+ / month</option>
+          </select>
+        </div>
+        <div class="space-y-1.5">
+          <label class="font-mono text-xs uppercase tracking-widest text-zinc-400 block">What do you need help with?</label>
+          <textarea class="w-full border border-zinc-200 focus:border-black focus:ring-0 font-mono text-sm p-3" placeholder="Amazon growth, Meta scaling, content systems, or all of the above" rows="3"></textarea>
+        </div>
+        <button class="w-full bg-black text-white py-4 font-mono font-bold text-sm uppercase tracking-[0.15em] hover:opacity-90 transition-opacity" type="submit">
+          Book a Strategy Call
+        </button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="w-full py-10 md:py-12 px-6 lg:px-10 bg-black" role="contentinfo">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+
+    <!-- Left: logo + copyright -->
+    <div class="flex flex-col md:flex-row items-center gap-3 md:gap-5">
+      <div class="flex items-center gap-3">
+        <img alt="Shack Studios" class="h-5 w-auto invert" src="assets/img/SHACKSTUDIOS-LOGO-FIRVERCON-2025.png">
+        <span class="text-sm font-black text-white font-mono uppercase tracking-widest">Shack Studios</span>
+      </div>
+      <span class="text-xs font-mono text-zinc-600 uppercase tracking-wide">© 2025 Shack Studios Holdings</span>
+    </div>
+
+    <!-- Right: links -->
+    <div class="flex gap-6 items-center">
+      <!-- TODO: Replace with real URLs when legal pages are ready -->
+      <span class="font-mono text-xs uppercase tracking-widest text-zinc-600 cursor-not-allowed" title="Legal pages pending">Privacy</span>
+      <span class="font-mono text-xs uppercase tracking-widest text-zinc-600 cursor-not-allowed" title="Legal pages pending">Terms</span>
+    </div>
+
+  </div>
+</footer>
+
+<!-- Mobile menu script -->
+<script>
+(function() {
+  const toggle = document.getElementById('mobile-menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  const lines = toggle.querySelectorAll('.hamburger-line');
+  const links = menu.querySelectorAll('a');
+  let isOpen = false;
+
+  function openMenu() {
+    isOpen = true;
+    menu.classList.add('is-open');
+    toggle.setAttribute('aria-expanded', 'true');
+    menu.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    // Animate hamburger to X
+    lines[0].style.transform = 'translateY(7px) rotate(45deg)';
+    lines[1].style.opacity = '0';
+    lines[2].style.transform = 'translateY(-7px) rotate(-45deg)';
+  }
+
+  function closeMenu() {
+    isOpen = false;
+    menu.classList.remove('is-open');
+    toggle.setAttribute('aria-expanded', 'false');
+    menu.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    // Reset hamburger
+    lines[0].style.transform = '';
+    lines[1].style.opacity = '';
+    lines[2].style.transform = '';
+  }
+
+  toggle.addEventListener('click', function() {
+    isOpen ? closeMenu() : openMenu();
+  });
+
+  // Close menu when a link is tapped
+  links.forEach(function(link) {
+    link.addEventListener('click', closeMenu);
+  });
+
+  // Close on Escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && isOpen) closeMenu();
+  });
+})();
+</script>
+
+</body>
+</html>
